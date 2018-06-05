@@ -1,0 +1,69 @@
+@import './fontawesome/web-fonts-with-css/css/fontawesome-all.min.css';
+
+.App {
+  text-align: center;
+}
+
+.btn{
+  border: 1px solid #cacaca;
+}
+
+.btn-grid{
+  background-color: #fff;
+  width: 40px;
+  margin: 10px 0px 10px 0px;
+}
+
+
+.float-right{
+  float: right;
+}
+
+.btn-grid-active{
+  color: #fff;
+  background-color: #22d0b2;
+  width: 40px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid transparent;
+}
+
+.btn-grid-active:hover{
+  color: #fff;
+  background-color: #8ad0c4;
+  width: 40px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid transparent;
+}
+
+.btn-list{
+  background-color: #fff;
+  width: 40px;
+  height: 38px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid #cacaca;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+
+}
+.btn-list-active{
+  color: #fff;
+  background-color: #22d0b2;
+  width: 40px;
+  height: 38px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid #cacaca;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+.btn-list-active:hover{
+  color: #fff;
+  background-color: #22d0b2;
+}
+
+
+.row-button{
+  border-bottom: 1px solid #cacaca;
+  text-align: right;
+}
